@@ -10,6 +10,7 @@
 
 # Directories
 *learn-terraform-azure/.terraform/
+*.terraform/providers
 
 # SSH Keys
 *.pem
