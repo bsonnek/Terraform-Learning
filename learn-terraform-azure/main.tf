@@ -10,11 +10,12 @@ terraform {
   required_version = ">= 1.1.0"
 }
 
+
 provider "azurerm" {
     features {}
 }
 
 resource "azurerm_resource_group" "rg" {
-  name     = "myTFResourceGroup"
-  location = "westus2"
+  name     = var.resource_group_name
+  location = var.location_westus2
 }
