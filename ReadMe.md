@@ -1,6 +1,9 @@
 ### Start by following these instructions
-https://developer.hashicorp.com/terraform/tutorials/azure-get-started/azure-build
 
+**This repo is designed to use VSCode Dev Containers with Docker Desktop.** 
+**You can use this repo to spin up a Terraform Local CLI Docker container with all required dependencies to work in Azure.**
+
+https://developer.hashicorp.com/terraform/tutorials/azure-get-started/azure-build
 
 
 ## Notes
